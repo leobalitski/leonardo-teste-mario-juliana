@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cadastro</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Cadastro do Usuário">
+    <meta name=" author " content="Kadu Floresta">
+    <link rel="stylesheet " type="text/css" href="css/style.css " />
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-links ">
+            <li><a href="index.html">Página Inicial</a></li>
+            <li class="active"><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="esqueciSenha.html"> Recuperar Senha</a></li>
+        </ul>
+    </nav>
+
+    <header class="top">
+        <img class="img-user" src="imgs/mario.png" alt="mario">
+    </header>
+
+    <div class="contentPage">
+        <form action="#" method="post">
+            <input class="inputBar" type="text" id="nome" placeholder="Nome Completo">
+            <input class="inputBar" type="email" id="email" placeholder="E-mail">
+            <select class="selectBar" id="pais" name="pais">
+                <option value="brazil">Brasil</option>
+                <option value="eua">Estados Unidos</option>
+                <option value="spain">Espanha</option>
+                <option value="france">França</option>
+                <option value="ingland">Inglaterra</option>
+            </select>
+            <input class="inputBar" type="login" id="login" placeholder="Login">
+            <input class="inputBar" type="password" id="senha" placeholder="Senha">
+            <input class="inputBar" type="password" id="csenha" placeholder="Confirmar Senha">
+            <input class="button submit" type="submit" value="Cadastrar">
+            <a href="login.html"><button class="button cancel" type="button">Cancelar</button></a>
+        </form>
+    </div>
+</body>
+
+</html>
